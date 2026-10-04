@@ -1,0 +1,77 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Prompt archive home" [ref=e4] [cursor=pointer]:
+      - /url: ./
+      - generic [aria-hidden] [ref=e5]:
+        - text: P
+        - generic [ref=e6]: /
+      - generic [ref=e7]: prompt archive
+    - generic [ref=e8]: SAVED IN THIS BROWSER
+  - main [ref=e10]:
+    - region [ref=e11]:
+      - paragraph [ref=e12]: A SMALL TOOL FOR BIG IDEAS
+      - heading "Keep your good prompts close." [level=1] [ref=e13]
+      - paragraph [ref=e14]: A personal shelf for the words that get you somewhere.
+    - group "Choose a visual theme" [ref=e15]:
+      - generic [ref=e16]: Choose a theme
+      - generic [ref=e17]:
+        - button "Cyberpunk" [ref=e18] [cursor=pointer]
+        - button "Nordic Forest" [ref=e21] [cursor=pointer]
+        - button "Retro Paper" [pressed] [ref=e24] [cursor=pointer]
+    - generic [ref=e27]:
+      - region [ref=e28]:
+        - heading "New Prompt" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Title
+            - textbox "Title" [ref=e34]:
+              - /placeholder: e.g. Explain a tricky concept
+          - generic [ref=e35]:
+            - generic [ref=e36]: Prompt
+            - textbox "Prompt" [ref=e37]:
+              - /placeholder: Write or paste your prompt here...
+          - button "Save prompt" [ref=e38] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e39]: +
+            - text: Save prompt
+          - status [ref=e40]
+      - region [ref=e41]:
+        - heading "Saved prompts" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]: Search saved prompts
+          - searchbox "Search saved prompts" [ref=e47]
+        - article [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Modal notes check" [level=3] [ref=e56]
+            - generic [ref=e57]:
+              - button "Edit Modal notes check" [ref=e58] [cursor=pointer]
+              - button "Open notes for Modal notes check, 1 note" [ref=e99] [cursor=pointer]:
+                - generic [aria-hidden] [ref=e67]: "1"
+              - button "Delete Modal notes check" [ref=e68] [cursor=pointer]: Delete
+          - group "Rate Modal notes check" [ref=e69]:
+            - button "Set Modal notes check rating to 1 out of 5 stars" [ref=e70] [cursor=pointer]
+            - button "Set Modal notes check rating to 2 out of 5 stars" [ref=e73] [cursor=pointer]
+            - button "Set Modal notes check rating to 3 out of 5 stars" [ref=e76] [cursor=pointer]
+            - button "Set Modal notes check rating to 4 out of 5 stars" [ref=e79] [cursor=pointer]
+            - button "Set Modal notes check rating to 5 out of 5 stars" [ref=e82] [cursor=pointer]
+          - paragraph [ref=e85]: A temporary prompt for testing the focused note editor.
+          - dialog [ref=e86]:
+            - region [ref=e87]:
+              - generic [ref=e88]:
+                - heading "Notes" [level=4] [ref=e89]
+                - button "Close notes" [ref=e90] [cursor=pointer]
+              - list "Notes for Modal notes check" [ref=e100]:
+                - listitem [ref=e101]:
+                  - paragraph [ref=e102]: Add a reminder to include a call to action.
+                  - generic [ref=e103]:
+                    - button "Edit note for Modal notes check" [ref=e104] [cursor=pointer]: Edit
+                    - button "Delete note for Modal notes check" [ref=e105] [cursor=pointer]: Delete
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Add a note
+                  - textbox "Add a note" [active] [ref=e96]:
+                    - /placeholder: Keep a thought with this prompt...
+                - button "Add note" [ref=e97] [cursor=pointer]
+                - status [ref=e98]
+  - contentinfo [ref=e52]:
+    - generic [aria-hidden] [ref=e53]: //
+    - text: Your prompts stay on this device.

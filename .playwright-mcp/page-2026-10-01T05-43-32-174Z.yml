@@ -1,0 +1,72 @@
+- generic [ref=f2e2]:
+  - banner [ref=f2e3]:
+    - link "Prompt archive home" [ref=f2e4] [cursor=pointer]:
+      - /url: ./
+      - generic [aria-hidden] [ref=f2e5]:
+        - text: P
+        - generic [ref=f2e6]: /
+      - generic [ref=f2e7]: prompt archive
+    - generic [ref=f2e8]: SAVED IN THIS BROWSER
+  - main [ref=f2e10]:
+    - region [ref=f2e11]:
+      - paragraph [ref=f2e12]: A SMALL TOOL FOR BIG IDEAS
+      - heading "Keep your good prompts close." [level=1] [ref=f2e13]
+      - paragraph [ref=f2e14]: A personal shelf for the words that get you somewhere.
+    - group "Choose a visual theme" [ref=f2e15]:
+      - generic [ref=f2e16]: Choose a theme
+      - generic [ref=f2e17]:
+        - button "Cyberpunk" [ref=f2e18] [cursor=pointer]
+        - button "Nordic Forest" [ref=f2e21] [cursor=pointer]
+        - button "Retro Paper" [pressed] [ref=f2e24] [cursor=pointer]
+    - generic [ref=f2e27]:
+      - region [ref=f2e28]:
+        - heading "New Prompt" [level=2] [ref=f2e30]
+        - generic [ref=f2e31]:
+          - generic [ref=f2e32]:
+            - generic [ref=f2e33]: Title
+            - textbox "Title" [ref=f2e34]:
+              - /placeholder: e.g. Explain a tricky concept
+          - generic [ref=f2e35]:
+            - generic [ref=f2e36]: Prompt
+            - textbox "Prompt" [ref=f2e37]:
+              - /placeholder: Write or paste your prompt here...
+          - button "Save prompt" [ref=f2e38] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f2e39]: +
+            - text: Save prompt
+          - status [ref=f2e40]
+      - region [ref=f2e41]:
+        - heading "Saved prompts" [level=2] [ref=f2e44]
+        - generic [ref=f2e45]:
+          - generic [ref=f2e46]: Search saved prompts
+          - searchbox "Search saved prompts" [ref=f2e47]
+        - article [ref=f2e49]:
+          - generic [ref=f2e50]:
+            - heading "RTL notes test" [level=3] [ref=f2e51]
+            - generic [ref=f2e52]:
+              - button "Edit RTL notes test" [ref=f2e53] [cursor=pointer]
+              - button "Delete RTL notes test" [ref=f2e58] [cursor=pointer]: Delete
+          - group "Rate RTL notes test" [ref=f2e59]:
+            - button "Set RTL notes test rating to 1 out of 5 stars" [ref=f2e60] [cursor=pointer]
+            - button "Set RTL notes test rating to 2 out of 5 stars" [ref=f2e63] [cursor=pointer]
+            - button "Set RTL notes test rating to 3 out of 5 stars" [ref=f2e66] [cursor=pointer]
+            - button "Set RTL notes test rating to 4 out of 5 stars" [ref=f2e69] [cursor=pointer]
+            - button "Set RTL notes test rating to 5 out of 5 stars" [ref=f2e72] [cursor=pointer]
+          - paragraph [ref=f2e75]: A temporary prompt for the responsive layout check.
+          - region [ref=f2e76]:
+            - heading "Notes" [level=4] [ref=f2e77]
+            - list "Notes for RTL notes test" [ref=f2e78]:
+              - listitem [ref=f2e79]:
+                - paragraph [ref=f2e80]: A note that should stay within the card at a narrow RTL viewport.
+                - generic [ref=f2e81]:
+                  - button "Edit note for RTL notes test" [ref=f2e82] [cursor=pointer]: Edit
+                  - button "Delete note for RTL notes test" [ref=f2e83] [cursor=pointer]: Delete
+            - generic [ref=f2e84]:
+              - generic [ref=f2e85]:
+                - generic [ref=f2e86]: Add a note
+                - textbox "Add a note" [ref=f2e87]:
+                  - /placeholder: Keep a thought with this prompt...
+              - button "Add note" [ref=f2e88] [cursor=pointer]
+              - status [ref=f2e89]
+  - contentinfo [ref=f2e90]:
+    - generic [aria-hidden] [ref=f2e91]: //
+    - text: Your prompts stay on this device.

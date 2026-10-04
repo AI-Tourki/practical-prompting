@@ -1,0 +1,77 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Prompt archive home" [ref=e4] [cursor=pointer]:
+      - /url: ./
+      - generic [aria-hidden] [ref=e5]:
+        - text: P
+        - generic [ref=e6]: /
+      - generic [ref=e7]: prompt archive
+    - generic [ref=e8]: SAVED IN THIS BROWSER
+  - main [ref=e10]:
+    - region [ref=e11]:
+      - paragraph [ref=e12]: A SMALL TOOL FOR BIG IDEAS
+      - heading "Keep your good prompts close." [level=1] [ref=e13]
+      - paragraph [ref=e14]: A personal shelf for the words that get you somewhere.
+    - group "Choose a visual theme" [ref=e15]:
+      - generic [ref=e16]: Choose a theme
+      - generic [ref=e17]:
+        - button "Cyberpunk" [ref=e18] [cursor=pointer]
+        - button "Nordic Forest" [ref=e21] [cursor=pointer]
+        - button "Retro Paper" [pressed] [ref=e24] [cursor=pointer]
+    - generic [ref=e27]:
+      - region [ref=e28]:
+        - heading "New Prompt" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Title
+            - textbox "Title" [ref=e34]:
+              - /placeholder: e.g. Explain a tricky concept
+          - generic [ref=e35]:
+            - generic [ref=e36]: Prompt
+            - textbox "Prompt" [ref=e37]:
+              - /placeholder: Write or paste your prompt here...
+          - button "Save prompt" [ref=e38] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e39]: +
+            - text: Save prompt
+          - status [ref=e40]
+      - region [ref=e41]:
+        - heading "Saved prompts" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]: Search saved prompts
+          - searchbox "Search saved prompts" [ref=e47]
+        - article [ref=e54]:
+          - generic [ref=e55]:
+            - heading "Notes test prompt" [level=3] [ref=e56]
+            - generic [ref=e57]:
+              - button "Edit Notes test prompt" [ref=e58] [cursor=pointer]
+              - button "Delete Notes test prompt" [ref=e63] [cursor=pointer]: Delete
+          - group "Rate Notes test prompt" [ref=e64]:
+            - button "Set Notes test prompt rating to 1 out of 5 stars" [ref=e65] [cursor=pointer]
+            - button "Set Notes test prompt rating to 2 out of 5 stars" [ref=e68] [cursor=pointer]
+            - button "Set Notes test prompt rating to 3 out of 5 stars" [ref=e71] [cursor=pointer]
+            - button "Set Notes test prompt rating to 4 out of 5 stars" [ref=e74] [cursor=pointer]
+            - button "Set Notes test prompt rating to 5 out of 5 stars" [ref=e77] [cursor=pointer]
+          - paragraph [ref=e80]: Test prompt content for attached notes.
+          - region [ref=e103]:
+            - heading "Notes" [level=4] [ref=e104]
+            - list "Notes for Notes test prompt" [ref=e105]:
+              - listitem [ref=e106]:
+                - paragraph [ref=e107]: First note for persistence
+                - generic [ref=e108]:
+                  - button "Edit note for Notes test prompt" [ref=e109] [cursor=pointer]: Edit
+                  - button "Delete note for Notes test prompt" [ref=e110] [cursor=pointer]: Delete
+              - listitem [ref=e111]:
+                - paragraph [ref=e112]: Second independent note
+                - generic [ref=e113]:
+                  - button "Edit note for Notes test prompt" [ref=e114] [cursor=pointer]: Edit
+                  - button "Delete note for Notes test prompt" [ref=e115] [cursor=pointer]: Delete
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - generic [ref=e118]: Add a note
+                - textbox "Add a note" [active] [ref=e119]:
+                  - /placeholder: Keep a thought with this prompt...
+              - button "Add note" [ref=e120] [cursor=pointer]
+              - status [ref=e121]
+  - contentinfo [ref=e52]:
+    - generic [aria-hidden] [ref=e53]: //
+    - text: Your prompts stay on this device.

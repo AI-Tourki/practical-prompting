@@ -1,0 +1,48 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - link "Prompt archive home" [ref=f5e4] [cursor=pointer]:
+      - /url: ./
+      - generic [aria-hidden] [ref=f5e5]:
+        - text: P
+        - generic [ref=f5e6]: /
+      - generic [ref=f5e7]: prompt archive
+    - generic [ref=f5e8]: SAVED IN THIS BROWSER
+  - main [ref=f5e10]:
+    - region [ref=f5e11]:
+      - paragraph [ref=f5e12]: A SMALL TOOL FOR BIG IDEAS
+      - heading "Keep your good prompts close." [level=1] [ref=f5e13]
+      - paragraph [ref=f5e14]: A personal shelf for the words that get you somewhere.
+    - group "Choose a visual theme" [ref=f5e15]:
+      - generic [ref=f5e16]: Choose a theme
+      - generic [ref=f5e17]:
+        - button "Cyberpunk" [ref=f5e18] [cursor=pointer]
+        - button "Nordic Forest" [pressed] [ref=f5e21] [cursor=pointer]
+        - button "Retro Paper" [ref=f5e24] [cursor=pointer]
+    - generic [ref=f5e27]:
+      - region [ref=f5e28]:
+        - generic [ref=f5e29]:
+          - generic [aria-hidden] [ref=f5e30]: "01"
+          - heading "New prompt" [level=2] [ref=f5e31]
+        - generic [ref=f5e32]:
+          - generic [ref=f5e33]:
+            - generic [ref=f5e34]: Title
+            - textbox "Title" [ref=f5e35]:
+              - /placeholder: e.g. Explain a tricky concept
+          - generic [ref=f5e36]:
+            - generic [ref=f5e37]: Prompt
+            - textbox "Prompt" [ref=f5e38]:
+              - /placeholder: Write or paste your prompt here...
+          - button "Save prompt" [ref=f5e39] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f5e40]: +
+            - text: Save prompt
+          - status [ref=f5e41]
+      - region [ref=f5e42]:
+        - generic [ref=f5e44]:
+          - generic [aria-hidden] [ref=f5e45]: "02"
+          - heading "Saved prompts" [level=2] [ref=f5e46]
+        - generic [ref=f5e48]:
+          - generic [aria-hidden] [ref=f5e49]: "{ }"
+          - paragraph [ref=f5e50]: Your saved prompts will live here.
+  - contentinfo [ref=f5e51]:
+    - generic [aria-hidden] [ref=f5e52]: //
+    - text: Your prompts stay on this device.

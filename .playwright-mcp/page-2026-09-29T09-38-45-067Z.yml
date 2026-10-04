@@ -1,0 +1,56 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Prompt archive home" [ref=e4] [cursor=pointer]:
+      - /url: ./
+      - generic [aria-hidden] [ref=e5]:
+        - text: P
+        - generic [ref=e6]: /
+      - generic [ref=e7]: prompt archive
+    - generic [ref=e8]: SAVED IN THIS BROWSER
+  - main [ref=e10]:
+    - region [ref=e11]:
+      - paragraph [ref=e12]: A SMALL TOOL FOR BIG IDEAS
+      - heading "Keep your good prompts close." [level=1] [ref=e13]
+      - paragraph [ref=e14]: A personal shelf for the words that get you somewhere.
+    - group "Choose a visual theme" [ref=e15]:
+      - generic [ref=e16]: Choose a theme
+      - generic [ref=e17]:
+        - button "Cyberpunk" [ref=e18] [cursor=pointer]
+        - button "Nordic Forest" [pressed] [ref=e21] [cursor=pointer]
+        - button "Retro Paper" [ref=e24] [cursor=pointer]
+    - generic [ref=e27]:
+      - region [ref=e28]:
+        - generic [ref=e29]:
+          - generic [aria-hidden] [ref=e30]: "01"
+          - heading "New prompt" [level=2] [ref=e31]
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Title
+            - textbox "Title" [active] [ref=e35]:
+              - /placeholder: e.g. Explain a tricky concept
+          - generic [ref=e36]:
+            - generic [ref=e37]: Prompt
+            - textbox "Prompt" [ref=e38]:
+              - /placeholder: Write or paste your prompt here...
+          - button "Save prompt" [ref=e39] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e40]: +
+            - text: Save prompt
+          - status [ref=e41]
+      - region [ref=e42]:
+        - generic [ref=e44]:
+          - generic [aria-hidden] [ref=e45]: "02"
+          - heading "Saved prompts" [level=2] [ref=e46]
+        - article [ref=e53]:
+          - generic [ref=e54]:
+            - heading "Rating test" [level=3] [ref=e55]
+            - button "Delete Rating test" [ref=e56] [cursor=pointer]: Delete
+          - group "Rate Rating test" [ref=e57]:
+            - button "Set Rating test rating to 1 out of 5 stars" [ref=e58] [cursor=pointer]
+            - button "Set Rating test rating to 2 out of 5 stars" [ref=e61] [cursor=pointer]
+            - button "Set Rating test rating to 3 out of 5 stars" [ref=e64] [cursor=pointer]
+            - button "Set Rating test rating to 4 out of 5 stars" [ref=e67] [cursor=pointer]
+            - button "Set Rating test rating to 5 out of 5 stars" [ref=e70] [cursor=pointer]
+          - paragraph [ref=e73]: A prompt used to verify saving a star rating.
+  - contentinfo [ref=e51]:
+    - generic [aria-hidden] [ref=e52]: //
+    - text: Your prompts stay on this device.
